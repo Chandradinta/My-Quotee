@@ -28,7 +28,7 @@ public class AdapterQuote extends RecyclerView.Adapter<AdapterQuote.ViewHolderQu
     @NonNull
     @Override
     public ViewHolderQuote onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(ctx).inflate(R.layout.item_quotee, parent, false);
+        View v = LayoutInflater.from(ctx).inflate(R.layout.activity_item_quote, parent, false);
         return new ViewHolderQuote(v);
     }
 
